@@ -15,7 +15,7 @@ while True:
                 r=operations[word.upper()](l[0],l[1])
                 print(r)
             except:
-                print("something wrong,do it again")
+                print("Something is wrong,do it again")
             finally:
                 break
         elif word.upper() in commands.keys():
